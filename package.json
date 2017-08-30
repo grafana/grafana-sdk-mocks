@@ -1,0 +1,9 @@
+{
+  "name": "grafana-sdk-mocks",
+  "version": "1.0.0",
+  "description": "Mocks package for the Grafana SDK. To be used with Karma tests when developing data source or panel Grafana plugins.",
+  "main": "index.js",
+  "repository": "https://github.com/grafana/grafana-sdk-mocks",
+  "author": "Grafana Labs",
+  "license": "MIT"
+}
