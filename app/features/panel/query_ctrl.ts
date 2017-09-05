@@ -9,10 +9,10 @@ export class QueryCtrl {
   error: string;
 
   constructor(public $scope, private $injector) {
+    this.panelCtrl = this.panelCtrl || {panel: {}};
+    this.target = this.target || {target: ''};
     this.panel = this.panelCtrl.panel;
   }
 
-  refresh() {
-    this.panelCtrl.refresh();
-  }
+  refresh() {}
 }

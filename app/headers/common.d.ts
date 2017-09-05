@@ -160,6 +160,8 @@ declare module 'app/plugins/sdk' {
     datasource: any;
     hasRawMode: boolean;
     error: string;
+
+    refresh(): void;
   }
 
   export function loadPluginCss(options: any): void;
