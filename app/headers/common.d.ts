@@ -28,6 +28,11 @@ declare module 'jquery' {
   export default jquery;
 }
 
+declare module 'q' {
+  var q: any;
+  export default q;
+}
+
 declare module 'app/core/time_series2' {
   var time_series2: any;
   export default time_series2;
