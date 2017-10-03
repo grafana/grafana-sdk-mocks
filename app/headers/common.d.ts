@@ -54,26 +54,28 @@ declare module 'app/core/utils/flatten' {
 }
 
 declare module 'app/core/utils/kbn' {
-  var interval_regex: string;
-  var intervals_in_seconds: string;
-  var formatBuilders: any;
-  var valueFormats: any;
+  var kbn: any;
+  export default kbn;
+  // var interval_regex: string;
+  // var intervals_in_seconds: string;
+  // var formatBuilders: any;
+  // var valueFormats: any;
 
-  export function round_interval(interval: number): number;
-  export function secondsToHms(seconds: number): string;
-  export function to_percent(number: number, outof: number): string;
-  export function calculateInterval(range: any, resolution: any, userInterval: any);
-  export function describe_interval(string: string): any;
-  export function interval_to_ms(string: string): number;
-  export function interval_to_seconds(string: string): number;
-  export function query_color_dot(color: string, diameter: string|number): string;
-  export function slugifyForUrl(str: string): string;
-  export function stringToJsRegex(str: string): RegExp;
-  export function toFixed(value: any, decimals: any): any;
-  export function toFixedScaled(value: any, decimals: any, scaledDecimals: any, additionalDecimals: any, ext: any);
-  export function roundValue(num: number, decimals: number): number;
-  export function toDuration(size, decimals, timeScale): string;
-  export function getUnitFormats(): any;
+  // export function round_interval(interval: number): number;
+  // export function secondsToHms(seconds: number): string;
+  // export function to_percent(number: number, outof: number): string;
+  // export function calculateInterval(range: any, resolution: any, userInterval: any);
+  // export function describe_interval(string: string): any;
+  // export function interval_to_ms(string: string): number;
+  // export function interval_to_seconds(string: string): number;
+  // export function query_color_dot(color: string, diameter: string|number): string;
+  // export function slugifyForUrl(str: string): string;
+  // export function stringToJsRegex(str: string): RegExp;
+  // export function toFixed(value: any, decimals: any): any;
+  // export function toFixedScaled(value: any, decimals: any, scaledDecimals: any, additionalDecimals: any, ext: any);
+  // export function roundValue(num: number, decimals: number): number;
+  // export function toDuration(size, decimals, timeScale): string;
+  // export function getUnitFormats(): any;
 }
 
 declare module 'app/core/store' {
