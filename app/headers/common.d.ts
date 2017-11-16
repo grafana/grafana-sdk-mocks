@@ -158,7 +158,7 @@ declare module 'app/plugins/sdk' {
     getInfoContent(options: any): void;
     openInspector(): void;
   }
-  export class MetricsPanelCtrl{
+  export class MetricsPanelCtrl extends PanelCtrl{
       constructor($scope:any, $injector: any);
       scope: any;
       loading: boolean;
