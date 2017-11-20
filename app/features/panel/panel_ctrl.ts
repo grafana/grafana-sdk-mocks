@@ -21,6 +21,7 @@ export class PanelCtrl {
   containerHeight: any;
   events: any;
   timing: any;
+  loading: boolean;
 
   constructor($scope, $injector) {
   }
