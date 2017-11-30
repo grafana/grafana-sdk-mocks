@@ -8,6 +8,11 @@ declare module 'app/core/config' {
   export default config;
 }
 
+declare module 'app/core/core_module' {
+  var coreModule: any;
+  export default coreModule;
+}
+
 declare module 'lodash' {
   var lodash: any;
   export default lodash;
