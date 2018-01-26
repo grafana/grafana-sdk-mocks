@@ -116,6 +116,7 @@ declare module 'app/core/utils/datemath' {
 
 declare module 'app/plugins/sdk' {
   export class PanelCtrl{
+    constructor($scope:any, $injector: any);
     panel: any;
     error: any;
     row: any;
