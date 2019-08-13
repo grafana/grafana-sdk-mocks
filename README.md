@@ -1,3 +1,12 @@
+# NOTE, this is no longer the reccomended way to develop Grafana Plugins:
+
+We recommend copying one of the following projects and using its config files:
+* https://github.com/grafana/simple-angular-panel
+* https://github.com/grafana/simple-react-panel  (ALPHA -- the interfaces are still a work in progress)
+* https://github.com/grafana/simple-json-datasource
+
+---
+
 # Grafana SDK Mocks for Plugins
 
 This package facilitates writing Grafana plugins in TypeScript.
