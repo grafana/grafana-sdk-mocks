@@ -1,4 +1,4 @@
-# NOTE, this is no longer the reccomended way to develop Grafana Plugins:
+# NOTE, this is no longer the recommended way to develop Grafana Plugins:
 
 We recommend copying one of the following projects and using its config files:
 * https://github.com/grafana/simple-angular-panel
