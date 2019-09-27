@@ -11,6 +11,7 @@ export class PanelCtrl {
   editorTabs: any;
   $scope: any;
   $injector: any;
+  $location: any;
   $timeout: any;
   fullscreen: boolean;
   inspector: any;

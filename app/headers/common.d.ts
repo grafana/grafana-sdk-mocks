@@ -127,6 +127,7 @@ declare module 'app/plugins/sdk' {
     editorTabs: any;
     $scope: any;
     $injector: any;
+    $location: any;
     $timeout: any;
     fullscreen: boolean;
     inspector: any;
